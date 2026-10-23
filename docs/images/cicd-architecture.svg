@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<rect width="1200" height="400" fill="#f8fafc"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="#0f172a">Automated CI/CD Pipeline</text>
+<g font-family="Arial" text-anchor="middle" font-size="18" fill="#0f172a">
+<rect x="25" y="120" width="155" height="95" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="102" y="158">Developer</text><text x="102" y="184">git push</text>
+<rect x="245" y="120" width="155" height="95" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="322" y="158">GitHub</text><text x="322" y="184">Repository</text>
+<rect x="465" y="120" width="155" height="95" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/><text x="542" y="158">Webhook</text><text x="542" y="184">Push event</text>
+<rect x="685" y="120" width="155" height="95" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/><text x="762" y="158">Jenkins</text><text x="762" y="184">Pipeline</text>
+<rect x="905" y="120" width="265" height="95" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/><text x="1037" y="158">Docker on EC2</text><text x="1037" y="184">Nginx container</text>
+<g stroke="#475569" stroke-width="3" fill="none"><path d="M180 168 H240"/><path d="M400 168 H460"/><path d="M620 168 H680"/><path d="M840 168 H900"/></g>
+<g fill="#475569"><path d="M240 168 l-10 -6 v12 z"/><path d="M460 168 l-10 -6 v12 z"/><path d="M680 168 l-10 -6 v12 z"/><path d="M900 168 l-10 -6 v12 z"/></g>
+<rect x="365" y="280" width="470" height="70" rx="12" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/><text x="600" y="309">Browser validation</text><text x="600" y="334">http://EC2-IP:8081</text>
+<path d="M1037 215 V250 H835 V315" stroke="#64748b" stroke-width="2" fill="none"/><path d="M835 315 l-6 -10 h12 z" fill="#64748b"/>
+</g></svg>
